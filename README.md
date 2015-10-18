@@ -8,19 +8,19 @@ A to do list app created with [Ionic](http://www.ionicframework.com)
 *In no particular order*
 
 * [ ] Grouping of todos
-* Editing of todos
-* Setting reminders for todos
-* Setup recurring todo list
-	- set cycle of recurrance
-* Web app version
-* Login
-	- Facebook
-	- Google
-	- Twitter
-* Friends lists	
-* Sharing of to do lists
-	- via email
-	- via friends list 
+* [ ] Editing of todos
+* [ ] Setting reminders for todos
+* [ ] Setup recurring todo list
+	* [ ] set cycle of recurrance
+* [ ] Web app version
+* [ ] Login
+	* [ ] Facebook
+	* [ ] Google
+	* [ ] Twitter
+* [ ] Friends lists	
+* [ ] Sharing of to do lists
+	* [ ] via email
+	* [ ] via friends list 
 
 	
 	
