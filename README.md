@@ -12,7 +12,7 @@ A to do list app created with [Ionic](http://www.ionicframework.com)
 * Setting reminders for todos
 * Setup recurring todo list
 	- set cycle of recurrance
-* We based version
+* Web app version
 * Login
 	- Facebook
 	- Google
