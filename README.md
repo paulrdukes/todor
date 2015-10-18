@@ -1,5 +1,6 @@
 #ToDo'r
-##A to do list app created with [Ionic](http://www.ionicframework.com)
+A to do list app created with [Ionic](http://www.ionicframework.com)
+
 *Work in progress*
 
 ###Feature Roadmap
