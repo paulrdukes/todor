@@ -7,7 +7,7 @@ A to do list app created with [Ionic](http://www.ionicframework.com)
 
 *In no particular order*
 
-* Grouping of todos
+* [ ] Grouping of todos
 * Editing of todos
 * Setting reminders for todos
 * Setup recurring todo list
