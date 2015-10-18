@@ -1,8 +1,8 @@
 {
-  "name": "myapp",
+  "name": "ToDo'r",
   "version": "0.0.1",
   "license": "UNLICENSED",
-  "description": "myApp: An Ionic project",
+  "description": "ToDo'r: A ToDo list app created with Ionic",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
