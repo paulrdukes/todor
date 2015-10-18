@@ -1,0 +1,13 @@
+<ion-view view-title="Done">
+  <ion-content>
+  
+    <div class="list">
+      <div class="item item-remove-animate item-button-right" ng-repeat="item in items" type="item-text-wrap" ng-if="item.complete">
+        <p>{{item.content}}</p>
+        <button class="button button-assertive" ng-click="removeItem(item)">
+          Remove
+        </button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

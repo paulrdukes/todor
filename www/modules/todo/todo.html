@@ -1,0 +1,33 @@
+<ion-view view-title="To Dos">
+  <ion-content>
+  
+    <label class="item item-input item-floating-label">
+      <span class="input-label">
+        Git'r done
+      </span>
+      <input type="text" 
+            placeholder="Git'r done" 
+            ng-model="newToDo">
+    </label>
+    
+    <button class="button button-block button-positive" 
+            ng-click="addItem(newToDo)">
+    Add'r
+    </button>
+    
+    <div class="list">
+      <div class="item item-remove-animate item-button-right" 
+          ng-repeat="item in items track by $index" 
+          type="item-text-wrap" 
+          ng-if="!item.complete">
+        
+        <p>{{item.content}}</p>
+        
+        <button class="button button-assertive" 
+                ng-click="completeItem(item)">
+          Did'r
+        </button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
