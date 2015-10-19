@@ -30,25 +30,25 @@ describe('ToDoController', function() {
 		});
     }));
 	
-	describe('$scope.addItem', function(){
-		it('adds item to the items array', function() {
-			scope.addItem();
-			items.should.have.length(1);
-		});
+	
+	it('adds item to the items array', function() {
+		scope.addItem();
+		items.should.have.length(1);
 	});
 	
-	describe('$scope.completeItem', function(){
-		it('sets items in items array to complete', function() {
-			var item = items[0];	
-			scope.completeItem(item);
-			expect(items[0].complete).to.equal(true);
-		});
+	
+	
+	it('sets items in items array to complete', function() {
+		var item = items[0];	
+		scope.completeItem(item);
+		expect(items[0].complete).to.equal(true);
 	});
 	
-	describe('$scope.removeItem', function(){
-		it('removes items from items array', function() {						
-			scope.removeItem();
-			items.should.have.length(0);
-		});
+	
+	
+	it('removes items from items array', function() {						
+		scope.removeItem();
+		items.should.have.length(0);
 	});
+	
 });

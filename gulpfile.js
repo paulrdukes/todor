@@ -6,7 +6,7 @@ var sass = require('gulp-sass');
 var minifyCss = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var sh = require('shelljs');
-var karma = require('karma').Server;
+var Server = require('karma').Server;
 
 var paths = {
   sass: ['./scss/**/*.scss']
@@ -52,15 +52,9 @@ gulp.task('git-check', function(done) {
   done();
 });
 
-// TODO fix this 
-// currently
-// until then run `karma start karma.conf.js`
-//  open http://localhost:9876/debug.html in a browser
-//  veiw test log in dev console.
-
-// gulp.task('test', function(done) {
-//   karma.start({
-//     configFile: __dirname + '/karma.conf.js',
-//     singleRun: true
-//   }, done).start();
-// });
+gulp.task('test', function (done) {
+  new Server({
+    configFile: __dirname + '/karma.conf.js',
+    singleRun: true
+  }, done).start();
+});

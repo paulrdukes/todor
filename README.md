@@ -30,6 +30,6 @@ A to do list app created with [Ionic](http://www.ionicframework.com)
 	```
 		npm install -g ionic
 		npm install
+		ionic serve
 	```
-3. ionic serve
-4. Profit
+3. Profit

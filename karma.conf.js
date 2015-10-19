@@ -9,7 +9,8 @@ module.exports = function(config) {
       'www/lib/angular-mocks/angular-mocks.js',
       'www/modules/app.js',  
       'www/modules/todo/*.js',
-      '**/*tests.js'
+      'www/modules/todo/*tests.js',
+      'www/modules/todo/**/*tests.js'
     ],
 
     reporters: ['mocha'],
@@ -26,6 +27,6 @@ module.exports = function(config) {
 
     autoWatch: true,
 
-    browsers: ['PhantomJS']
+    browsers: ['PhantomJS', 'Chrome']
   })
 }
