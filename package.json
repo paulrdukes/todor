@@ -1,7 +1,7 @@
 {
   "name": "ToDo'r",
   "version": "0.0.1",
-  "license": "UNLICENSED",
+  "license": "Unlicense",
   "description": "ToDo'r: A ToDo list app created with Ionic",
   "dependencies": {
     "gulp": "^3.5.6",

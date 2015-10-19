@@ -17,17 +17,19 @@ A to do list app created with [Ionic](http://www.ionicframework.com)
 	* [ ] Facebook
 	* [ ] Google
 	* [ ] Twitter
-* [ ] Friends lists	
+* [ ] Friends lists
 * [ ] Sharing of to do lists
 	* [ ] via email
-	* [ ] via friends list 
+	* [ ] via friends list
 
-	
-	
-##### HOW TO USE
+
+
+##### For Development
 1. Copy the repo to you computer.
-2. In the repo directory type: 
+2. In the repo directory type:
 	```
-		npm install ```
-3. ...
+		npm install -g ionic
+		npm install
+	```
+3. ionic serve
 4. Profit
