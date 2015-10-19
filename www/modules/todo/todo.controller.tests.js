@@ -30,14 +30,11 @@ describe('ToDoController', function() {
 		});
     }));
 	
-	
 	it('adds item to the items array', function() {
 		scope.addItem();
 		items.should.have.length(1);
 	});
-	
-	
-	
+
 	it('sets items in items array to complete', function() {
 		var item = items[0];	
 		scope.completeItem(item);

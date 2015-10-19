@@ -16,7 +16,7 @@ module.exports = function(config) {
     reporters: ['mocha'],
     
     mochaReporter: {
-      output: 'minimal'
+      output: 'full'
     },
 
     port: 9876,
@@ -27,6 +27,6 @@ module.exports = function(config) {
 
     autoWatch: true,
 
-    browsers: ['PhantomJS', 'Chrome']
+    browsers: ['PhantomJS']
   })
 }
