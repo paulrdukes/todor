@@ -27,9 +27,11 @@ A to do list app created with [Ionic](http://www.ionicframework.com)
 ##### For Development
 1. Copy the repo to you computer.
 2. In the repo directory type:
+
 	```
-		npm install -g ionic
-		npm install
-		ionic serve
+	npm install -g ionic
+	npm install
+	ionic serve
 	```
+
 3. Profit
