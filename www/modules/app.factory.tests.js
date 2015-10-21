@@ -11,7 +11,7 @@ describe('ToDosFactory', function(){
 		ToDosFactory = _ToDosFactory_;
 	}));
 	
-	if('should have get function') {
+	it('should have get function') {
 		expect(angular.isFunction(ToDosFactory.get)).to.be(true);
 	}
 });
