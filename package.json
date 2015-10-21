@@ -2,6 +2,9 @@
   "name": "ToDo'r",
   "version": "0.0.1",
   "license": "Unlicense",
+  "repository": {
+    "url": "https://github.com/paulrdukes/todor"
+  },
   "description": "ToDo'r: A ToDo list app created with Ionic",
   "dependencies": {
     "gulp": "^3.5.6",
