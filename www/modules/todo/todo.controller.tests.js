@@ -10,18 +10,6 @@ describe('ToDoController', function() {
 	//load the controller's module
 	beforeEach(module('myApp'));
 	
-	beforeEach(module(function($provide){
-		ToDosFactory = {
-			get: function() {
-				return items
-			},
-			put: function(item) {
-				items.push(item);
-			}
-		};
-		$provide.value('ToDosFactory', ToDosFactory);
-	}));
-	
 	beforeEach(inject(function($rootScope, $controller) {
         scope = $rootScope.$new();
         $controller('ToDoController', {

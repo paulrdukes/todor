@@ -10,7 +10,7 @@
       url: '/tab',
       abstract: true,
       templateUrl: 'templates/tabs.html',
-      controller: 'ToDoController'
+      controller: 'ToDoController as toDosCtrl'
     })
   
     // Each tab has its own nav history stack:

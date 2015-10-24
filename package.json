@@ -26,7 +26,9 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "mocha": "^2.3.3",
     "phantomjs": "^1.9.18",
-    "shelljs": "^0.3.0"
+    "shelljs": "^0.3.0",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
   },
   "cordovaPlugins": [
     "cordova-plugin-device",

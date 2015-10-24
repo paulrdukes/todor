@@ -11,20 +11,20 @@
     </label>
     
     <button class="button button-block button-positive" 
-            ng-click="addItem(newToDo)">
+            ng-click="toDosCtrl.toDos.addItem(newToDo)">
     Add'r
     </button>
     
     <div class="list">
       <div class="item item-remove-animate item-button-right" 
-          ng-repeat="item in items track by $index" 
+          ng-repeat="item in toDosCtrl.toDos track by $index" 
           type="item-text-wrap" 
           ng-if="!item.complete">
         
         <p>{{item.content}}</p>
         
         <button class="button button-assertive" 
-                ng-click="completeItem(item)">
+                ng-click="toDosCtrl.toDos.complete(item)">
           Did'r
         </button>
       </div>

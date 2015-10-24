@@ -2,7 +2,6 @@
   'use strict';
   
   function ToDosFactory() {
-    var items = [];
       
     return {
        get: function(){
@@ -14,5 +13,5 @@
        }
     }
   }
-  module.factory('ToDosFactory', ToDosFactory);
+  module.factory('toDos', ToDosFactory);
 })(angular.module('myApp'));
